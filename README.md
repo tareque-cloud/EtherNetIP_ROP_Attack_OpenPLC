@@ -5,7 +5,7 @@
 
 ## Exploiting EtherNet/IP Protocol Passer Vulnerability ([CVE-2024-34026](https://nvd.nist.gov/vuln/detail/cve-2024-34026))  and ROP Attack on OpenPLC_v3
 
-- First video [Debugging OpenPLC Binary and Finding Memory Addresses of the I/O Coils or Holding Registers Along With the Required Address of `pump1_start` for ROP Attack](https://www.youtube.com/watch?v=RoLePUb-xaM) illustrates the following steps:
+- First video [Debugging OpenPLC Binary and Enumerating Memory Addresses of the I/O Coils or Holding Registers Along With the Required Address of `pump1_start` for ROP Attack](https://www.youtube.com/watch?v=RoLePUb-xaM) illustrates the following steps:
 
 1. Start debugging the OpenPLC binary using the `pwndbg` tool.
 2. Find all the functions in the OpenPLC binary.
